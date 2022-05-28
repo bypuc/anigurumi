@@ -1,0 +1,43 @@
+.content-back{
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 0 95px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.orsource p{
+    font-family: "Roboto Slab",sans-serif;
+    font: size 24px;
+    font-weight: 400;
+    color: #4A4A4A;
+    width: 290px;
+    margin-bottom: 200px;
+}
+
+.orsource img{
+    position: absolute;
+    right:77px;
+    top:750px;
+}
+
+.orsource{
+    margin-bottom: 70px;
+}
+
+.orsource::after{
+    content: "";
+    display: block;
+    width: 1110px;
+    height: 5px;
+    background-color: #D97172;
+    position: relative;
+    right: 95px;
+}
+
+.poster{
+    position: relative;
+    right: 95px;
+    margin-bottom: 45px;
+}

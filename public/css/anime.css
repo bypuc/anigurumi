@@ -1,0 +1,18 @@
+.anime h1{
+    margin-bottom: 10px;
+    border-bottom: 2px solid #CF4D4F;
+    display: inline-block;
+}
+
+.anime .sorting{
+    font-family: "Roboto Slab",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.anime .sorting img{
+    margin-left: 25px;
+}

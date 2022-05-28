@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/public/css/base.css">
+        <link rel="stylesheet" href="/public/css/animore.css">
+        <title>Anime</title>
+    </head>
+    <body>
+        <%-include("../blocks/header.ejs") %>
+        <div class="container">
+            <%-include("../blocks/search.ejs") %>
+            <div class="content-back">
+                <div class="poster">
+                 <img src="/public/img/starpng.png" alt="star">     
+                </div>
+                <div class="orsource">
+                    <h2 class="section-header">Первоисточник:</h2>
+                    <p>Произведение является оригинальным и не имеет первоисточника в виде манги
+                    </p>
+                    <img src="/public/img/animegirl.png" alt="animegirl">
+                </div>
+
+
+                <img class="player" src="/public/img/player.png" alt="player">   
+                <%-include("../blocks/recblocks.ejs") %>
+                <%-include("../blocks/urcomment.ejs") %>
+            </div>
+        </div>
+
+
+    </body>
+</html>

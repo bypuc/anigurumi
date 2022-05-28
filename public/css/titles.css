@@ -1,0 +1,19 @@
+.titles{
+    display: grid;
+    column-gap: 30px;
+    row-gap: 40px;
+    grid-template-areas: 
+    ". . . g"
+    ". . . g";
+    grid-template-columns: 255px 255px 255px ;
+    grid-template-rows: 250px 250px;
+    margin-bottom: 40px;
+}
+
+.titles .genres{
+    grid-area: g;
+}
+
+.titles a{
+    text-decoration: none;
+}

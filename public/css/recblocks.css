@@ -1,0 +1,18 @@
+.recs{
+    position: relative;
+}
+
+.recblocks{
+    display: flex;
+    position: relative;
+    width: 1015px;
+    overflow: hidden;
+    column-gap: 32px;
+    justify-content: space-between;
+}
+
+.recs .next-switch{
+    position: absolute;
+    top: 100px;
+    right: -120px;
+}

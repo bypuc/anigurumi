@@ -1,0 +1,10 @@
+<p class="section-header "> Вам можем понравиться</p>
+<div class="recs">
+    <div class="recblocks">
+    <% for (let i = 0; i < 4; i++) { %> 
+       <a href="/animore"><%-include("../blocks/block.ejs") %></a>
+    <% } %>
+    </div>
+    <img class="next-switch" src="/public/img/next.png" alt="next-switch">
+</div>
+<link rel="stylesheet" href="/public/css/recblocks.css">

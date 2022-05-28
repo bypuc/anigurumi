@@ -1,0 +1,22 @@
+.content-back{
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    padding: 0 95px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+}
+
+.poster{
+    position: relative;
+    right: 95px;
+    margin-bottom: 48px;
+}
+
+.relanime h2{
+    margin-bottom: 25px;
+}
+
+.recrel {
+    margin-bottom: 70px;
+}
